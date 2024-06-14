@@ -1,0 +1,17 @@
+.friendListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.friendListItemName {
+  font-size: 1.2em;
+}
+
+.friendListItemStatus {
+  color: green;
+}
+
+.friendListItemStatus.isOffline {
+  color: red;
+}

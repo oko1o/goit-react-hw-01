@@ -1,0 +1,42 @@
+.transactionTable {
+  width: 540px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: left;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.transactionTable thead tr {
+  background-color: #393939;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.transactionTable th,
+.transactionTable td {
+  padding: 12px 15px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-weight: normal;
+}
+
+.transactionTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.transactionTable tbody tr:nth-of-type(even) {
+  background-color: #cccccc;
+}
+
+.transactionTable tbody tr:last-of-type {
+  border-bottom: 2px solid #393939;
+}
+
+.transactionTable tbody tr.active-row {
+  font-weight: bold;
+  color: #393939;
+}
